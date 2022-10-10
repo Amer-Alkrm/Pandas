@@ -19,6 +19,7 @@
 #### Database Container Configurations
 
 * You can use the following configuration after running the service locally to connect to mysql database.
+
 | Key | Value |
 | --- | --- |
 | `Container Name` | `car-service-mysql` (MYSQL) |
