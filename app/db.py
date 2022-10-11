@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 DATABASE_URL = 'mysql://{DB_USER_NAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'.format(
     **environ)
 
-engine = create_engine(DATABASE_URL) # enter your password and database names here
+engine = create_engine(DATABASE_URL)
 Session = sessionmaker(engine)
 
 metadata = sa.MetaData()
